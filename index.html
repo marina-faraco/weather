@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Weather</title>
+
+        <link href="style.css" rel="stylesheet">
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>WEATHER</h1>
+            </header>
+            <form class="search">
+                <input type="search" placeholder="search city">
+                <button>🔎</button>
+            </form>
+            <section class="current-weather">
+                <h2 class="city">City</h2>
+                <p class="temperature">...</p>
+                <p class="description">desc</p>
+                <img class="todays-icon" src="icons.png" alt="Today's icon"/>
+            </section>    
+            <section class="forecast">
+                <h2>Next Days</h2>
+                <div class="forecast-box">
+                    <article class="day">
+                        <p class="day-name">Day 1</p>
+                        <img class="day-icon" src="icons/sun.png" alt="Weather icon"/>
+                        <p class="day-temp">--°</p>
+                    </article>
+                    <article class="day">
+                        <p class="day-name">Day 2</p>
+                        <img class="day-icon" src="icons/sun.png" alt="Weather icon"/>
+                        <p class="day-temp">--°</p>
+                    </article>
+                    <article class="day">
+                        <p class="day-name">Day 3</p>
+                        <img class="day-icon" src="icons/sun.png" alt="Weather icon"/>
+                        <p class="day-temp">--°</p>
+                    </article>
+                    <article class="day">
+                        <p class="day-name">Day 4</p>
+                        <img class="day-icon" src="icons/sun.png" alt="Weather icon/"
+                        <p class="day-temp">--°</p>
+                    </article>
+                    <article class="day">
+                        <p class="day-name">Day 5</p>
+                        <img class="day-icon" src="icons/sun.png" alt="Weather icon"/>
+                        <p class="day-temp">--°</p>
+                    </article>         
+                </div>  
+            </section>
+            <div class="toggle">
+                <button id="cels" class="active">°C</button> 
+                <button id="fahr">°F</button>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>A project by Marina Faraco</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
