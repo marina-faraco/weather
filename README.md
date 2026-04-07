@@ -58,13 +58,13 @@ weather-app
 1. Clone o repositório
 
 ```
-git clone https://github.com/seu-usuario/weather-app.git
+git clone https://github.com/marina-faraco/WeatherApp.git
 ```
 
 2. Acesse a pasta do projeto
 
 ```
-cd weather-app
+cd WeatherApp
 ```
 
 3. Abra o arquivo `index.html` no navegador.
